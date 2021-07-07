@@ -1,0 +1,179 @@
+
+body {
+  margin: 0;
+  font-family: Verdana;
+  font-size: 1rem;
+  color: #212529;
+  background-color: var(--blue2);
+  width:100%;
+  min-width:1000px;
+}
+/* *------------------------------ On smaller screens*/
+@media screen and (max-width: 1000px) {
+  .navbar h2 {
+    display:none;
+  }
+  .navbar span {
+    display:none;
+  }
+  .sidebar {
+    display:none;
+  }
+  .sidebar-small {
+    display:block;
+  }
+}
+/* *------------------------------ On bigger screens*/
+
+@media screen and (min-width: 1000px) {
+  .sidebar {
+    display:block;
+  }
+.sidebar-small {
+    display:none;
+  }
+main {
+  margin-left:145px !important;
+  }
+}
+/*------------------------------typography bootstrap overrides*/
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h2 {
+  font-weight:bold;
+  font-size: 14px;
+}
+
+p {
+  font-size: 11px;
+}
+
+.navFont{
+    font-size: 12px;
+}
+
+/*------------------------------color overrides*/
+:root {
+  /* Primary Colors */
+  --blue: #00a8c6;
+  --blue2: #f8fdff;
+  --grey: #505050;
+  --grey2: #909090;
+  --grey3: #d0d0d0;
+  --grey4: #f5f5f5;
+  /* Secondary Colors */
+  --green: #519548;
+  --red: #FA2A00;
+  --url: #0000EE;
+  /* Status Colors */
+  --new: #DBFCC8;
+  --progress: #DCE8FF;
+  --new: #FFEEC2;
+  --error: #FFC6C6;
+  --done: #FFC6C6;
+
+}
+
+/*------------------------------navigation*/
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 12px 10px;
+}
+
+.navbar {
+  /* min-width:1000px; */
+  z-index: 100; /* Behind the navbar */
+  background-color: var(--grey4);
+  height: 56px;
+  margin:auto;
+  border-bottom: 1px solid var(--grey3);
+  position: fixed;
+  width:100%;
+  border-radius: 0px ;
+  overflow: hidden;
+}
+
+.navbar h2 {
+  color: var(--grey2);
+  text-align: center;
+  display: inline;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.navbar-header {
+  height: 56px;
+}
+.navbar-logo {
+  height: 56px;
+  padding: 5px 0 0 20px;
+  display: inline-block;
+}
+
+.navbar-right {
+  margin-right: 10px;
+}
+
+.navbar li {
+  height: 56px;
+  padding-top: 4px;
+}
+
+/*------------------------------sidenav*/
+.svg-blue {
+  filter: invert(56%) sepia(75%) saturate(4287%) hue-rotate(156deg) brightness(96%) contrast(101%);
+}
+
+.nav-toggle {
+  text-align: right;
+}
+
+.sidebar {
+  width: 145px;
+  position: fixed;
+  top: 56px;
+  bottom: 0;
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 0;
+  background-color:  var(--grey4);
+}
+
+.sidebar-small{
+  width: 40px;
+  margin-right: 10px;
+
+}
+
+.sidebar a {
+  color: var(--grey);
+}
+.sidebar a:hover {
+  color: var(--blue);
+}
+
+.sidebar a:hover img{
+  filter: invert(56%) sepia(75%) saturate(4287%) hue-rotate(156deg) brightness(96%) contrast(101%);
+}
+
+.sidebar .nav-link.active {
+  color: var(--blue);
+  background-color:var(--blue2);
+  border-left: 3px solid;
+}
+
+
+main {
+  margin: 56px 0 0 40px; /* Same as the width of the sidenav */
+  padding: 12px 20px 20px 20px;;
+}
