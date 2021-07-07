@@ -1,9 +1,13 @@
 
+* {
+margin: 0;
+padding: 0;
+}
+
 body {
-  margin: 0;
   font-family: Verdana;
   font-size: 1rem;
-  color: #212529;
+  color: var(--black);
   background-color: var(--blue2);
   width:100%;
   min-width:1000px;
@@ -33,7 +37,7 @@ body {
     display:none;
   }
 main {
-  margin-left:145px !important;
+  padding-left:145px !important;
   }
 }
 /*------------------------------typography bootstrap overrides*/
@@ -64,6 +68,8 @@ p {
 /*------------------------------color overrides*/
 :root {
   /* Primary Colors */
+  --white: #ffffff;
+  --black: #000000;
   --blue: #00a8c6;
   --blue2: #f8fdff;
   --grey: #505050;
@@ -134,7 +140,7 @@ p {
   filter: invert(56%) sepia(75%) saturate(4287%) hue-rotate(156deg) brightness(96%) contrast(101%);
 }
 
-.nav-toggle {
+.subnav-toggle {
   text-align: right;
 }
 
@@ -151,8 +157,6 @@ p {
 
 .sidebar-small{
   width: 40px;
-  margin-right: 10px;
-
 }
 
 .sidebar a {
@@ -173,7 +177,53 @@ p {
 }
 
 
+/*------------------------------Main*/
+.mainContainer {
+  padding-top: 56px;
+}
+
 main {
-  margin: 56px 0 0 40px; /* Same as the width of the sidenav */
-  padding: 12px 20px 20px 20px;;
+  /* margin: 56px 0 0 40px; /* Same as the width of the sidenav */
+  padding-left:40px;
+}
+
+.container {
+  width: 100%;
+  margin:0;
+  padding:12px 20px 20px 20px;
+}
+
+.row {
+  width: 100%;
+  margin: 12px 0;
+  background-color: var(--white);
+}
+
+.subBarTitle{
+  width: 100%;
+
+  height: 24px;
+  padding-left: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: var(--grey3);
+  line-height: 24px;
+}
+
+.table {
+  border: 1px solid var(--grey3);
+border-collapse:collapse;
+
+}
+thead {
+  background-color: var(--grey4);
+  border-bottom: 1px solid var(--grey4);
+}
+tbody {
+  border-bottom: 1px solid var(--grey3);
+  margin-bottom: 10px;
+}
+
+tr, td, th {
+  border-top: 1px solid var(--grey4)!important;
 }
