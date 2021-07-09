@@ -5,366 +5,564 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link href="styles/style.css" rel="stylesheet" />
   </head>
   <body>
    <!--   Top nav start -->
     <nav class="navbar">
-      <div class="">
-        <div class="navbar-logo">
-          <a href="#">
-            <img src="images/logo.png" alt="iClinic Logo" width="146" height="41" class="logo">
-          </a>
-        </div>
-        <h2>
-          New York Medical Group - Flushing Medical P.C. - 230 Flushing Office
-        </h2>
-        <ul class="nav navbar-nav navbar-right">
-          <li class="nav-item text-nowrap">
+      <div class="navbar-logo">
+        <a href="#">
+          <img src="images/logo.png" alt="iClinic Logo" width="146" height="41" class="logo">
+        </a>
+      </div>
+      <span class="navLocation">
+        New York Medical Group - Flushing Medical P.C. - 230 Flushing Office
+      </span>
+      <div class="navbar-right">
+        <ul>
+          <li>
             <a class="nav-link" href="#">
               <img src="icons/Search.svg" alt="Search" width="16" height="16" />
             </a>
           </li>
-          <li class="nav-item text-nowrap">
+          <li>
             <a class="nav-link" href="#">
-              <img src="icons/Question.svg" alt="Search" width="16" height="16"/>
+              <img src="icons/Question.svg" alt="Question" width="16" height="16"/>
             </a>
           </li>
           <li class="nav-item text-nowrap">
             <a class="nav-link" href="#">
               <span>Smith, Harry d, MD</span>
-              <img src="icons/Nav-Down.svg" alt="Search" width="16" height="16"/>
+              <img src="icons/Nav-Down.svg" alt="Down" width="16" height="16"/>
             </a>
           </li>
         </ul>
       </div>
     </nav>
-    <!-- Top nav end -->
-
-    <div class="mainContainer">
-        <!-- sidebar big toggle start -->
-        <nav class="sidebar navFont">
-          <div class="sidebar-sticky">
-            <ul class="nav flex-column">
-              <li class="nav-item">
-                <a class="subav-toggle" href="#">
-                  <img src="icons/Nav-Left.svg" alt="Search" width="16" height="16" class="svg-blue"/>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">
-                  <img src="icons/Nav-Home.svg" alt="Search" width="16" height="16" class="svg-blue"/>
-                  <span>Dashboard</span> <span class="sr-only">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="icons/Nav- Clinic Workplace.svg" alt="Search" width="16" height="16" />
-                  Clinic Workspace
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="icons/Nav-Patient Home.svg" alt="Search" width="16" height="16" />
-                  Patient Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="icons/Nav-Schedule.svg" alt="Search" width="16" height="16" />
-                  Schedule
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="icons/Nav-Inbox Outbox.svg" alt="Search" width="16" height="16" />
-                  Inbox/Outbox
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="icons/Nav-Lab Order.svg" alt="Search" width="16" height="16" />
-                  Lab Order
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="icons/Nav-Prescription.svg" alt="Search" width="16" height="16" />
-                  Prescription
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="icons/Nav-Claim.svg" alt="Search" width="16" height="16" />
-                  Claim
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="icons/Nav-Report.svg" alt="Search" width="16" height="16" />
-                  Report
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="icons/Nav-PopHealth.svg" alt="Search" width="16" height="16" />
-                  Pop Health
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="icons/Nav-Setting.svg" alt="Search" width="16" height="16" />
-                  Setting
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="icons/Nav-Health Registry.svg" alt="Search" width="16" height="16" />
-                  Health Registry
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="icons/Nav-Follow Up.svg" alt="Search" width="16" height="16" />
-                  Follow Up
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="icons/Nav-Inventory.svg" alt="Search" width="16" height="16" />
-                  Inventory
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        <!-- sidebar big toggle End -->
-
-        <!-- sidebar small toggle start -->
-        <nav class="sidebar sidebar-small navFont">
-          <div class="sidebar-sticky">
-            <ul class="nav flex-column">
-              <li class="nav-item">
-                <a class="subnav-toggle" href="#">
-                  <img src="icons/Nav-Right.svg" alt="Search" width="16" height="16" class="svg-blue"/>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">
-                  <img src="icons/Nav-Home.svg" alt="Search" width="16" height="16" class="svg-blue"/>
-                  <span class="sr-only">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="icons/Nav- Clinic Workplace.svg" alt="Search" width="16" height="16" />
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="icons/Nav-Patient Home.svg" alt="Search" width="16" height="16" />
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="icons/Nav-Schedule.svg" alt="Search" width="16" height="16" />
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="icons/Nav-Inbox Outbox.svg" alt="Search" width="16" height="16" />
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="icons/Nav-Lab Order.svg" alt="Search" width="16" height="16" />
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="icons/Nav-Prescription.svg" alt="Search" width="16" height="16" />
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="icons/Nav-Claim.svg" alt="Search" width="16" height="16" />
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="icons/Nav-Report.svg" alt="Search" width="16" height="16" />
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="icons/Nav-PopHealth.svg" alt="Search" width="16" height="16" />
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="icons/Nav-Setting.svg" alt="Search" width="16" height="16" />
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="icons/Nav-Health Registry.svg" alt="Search" width="16" height="16" />
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="icons/Nav-Follow Up.svg" alt="Search" width="16" height="16" />
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src="icons/Nav-Inventory.svg" alt="Search" width="16" height="16" />
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        <!-- sidebar small toggle end -->
-
-        <main role="main" class="">
-          <div class="container">
-            <h1>Title</h1>
-            <div class="row">
-              <div class="subBarTitle">
-                Subtitle bar
+    <!-- main start -->
+    <main role="main">
+      <!-- sidebar big start -->
+      <nav class="sideNav sideNav-big">
+        <div>
+          <ul>
+            <li>
+              <a class="sub-toggle" href="#">
+                <img src="icons/Nav-Left.svg" alt="Left" width="16" height="16" class="svg-blue"/>
+              </a>
+            </li>
+            <li>
+              <a class="active" href="#">
+                <img src="icons/Nav-Home.svg" alt="Dashboard" width="16" height="16" class="svg-blue"/>
+                <span>Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="icons/Nav- Clinic Workplace.svg" alt="Workplace" width="16" height="16" />
+                Clinic Workspace
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="icons/Nav-Patient Home.svg" alt="Patient Home" width="16" height="16" />
+                Patient Home
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="icons/Nav-Schedule.svg" alt="Schedule" width="16" height="16" />
+                Schedule
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="icons/Nav-Inbox Outbox.svg" alt="Inbox/Outbox" width="16" height="16" />
+                Inbox/Outbox
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="icons/Nav-Lab Order.svg" alt="Lab Order" width="16" height="16" />
+                Lab Order
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="icons/Nav-Prescription.svg" alt="Prescription" width="16" height="16" />
+                Prescription
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="icons/Nav-Claim.svg" alt="Search" width="16" height="16" />
+                Claim
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="icons/Nav-Report.svg" alt="Report" width="16" height="16" />
+                Report
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="icons/Nav-PopHealth.svg" alt="PopHealth" width="16" height="16" />
+                Pop Health
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="icons/Nav-Setting.svg" alt="Setting" width="16" height="16" />
+                Setting
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="icons/Nav-Health Registry.svg" alt="Health Registry" width="16" height="16" />
+                Health Registry
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img src="icons/Nav-Follow Up.svg" alt="Follow Up" width="16" height="16" />
+                Follow Up
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="icons/Nav-Inventory.svg" alt="Inventory" width="16" height="16" />
+                Inventory
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- sidebar small start -->
+      <nav class="sideNav sideNav-small">
+        <div>
+          <ul>
+            <li>
+              <a class="sub-toggle" href="#">
+                <img src="icons/Nav-Right.svg" alt="Left" width="16" height="16" class="svg-blue"/>
+              </a>
+            </li>
+            <li>
+              <a class="active" href="#">
+                <img src="icons/Nav-Home.svg" alt="Dashboard" width="16" height="16" class="svg-blue"/>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="icons/Nav- Clinic Workplace.svg" alt="Workplace" width="16" height="16" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="icons/Nav-Patient Home.svg" alt="Patient Home" width="16" height="16" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="icons/Nav-Schedule.svg" alt="Schedule" width="16" height="16" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="icons/Nav-Inbox Outbox.svg" alt="Inbox/Outbox" width="16" height="16" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="icons/Nav-Lab Order.svg" alt="Lab Order" width="16" height="16" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="icons/Nav-Prescription.svg" alt="Prescription" width="16" height="16" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="icons/Nav-Claim.svg" alt="Search" width="16" height="16" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="icons/Nav-Report.svg" alt="Report" width="16" height="16" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="icons/Nav-PopHealth.svg" alt="PopHealth" width="16" height="16" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="icons/Nav-Setting.svg" alt="Setting" width="16" height="16" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="icons/Nav-Health Registry.svg" alt="Health Registry" width="16" height="16" />
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img src="icons/Nav-Follow Up.svg" alt="Follow Up" width="16" height="16" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="icons/Nav-Inventory.svg" alt="Inventory" width="16" height="16" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- mainContainer start-->
+      <div class="mainContainer">
+        <h1 class="mainTitle">Title</h1>
+        <div class="subTopNav">
+          <a href="#home" class="active">Home</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="row">
+          <form>
+            <div class="container">
+              <div class="col-1 mr1">
+                <label for="text">Label</label>
+                <input type="text" id="" name="text" placeholder="Text">
               </div>
-              <div class="table-responsive">
-                <table class="table table-sm">
-                  <thead>
-                    <tr>
-                      <th>#</th>
-                      <th>Header</th>
-                      <th>Header</th>
-                      <th>Header</th>
-                      <th>Header</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>1,001</td>
-                      <td>Lorem</td>
-                      <td>ipsum</td>
-                      <td>dolor</td>
-                      <td>sit</td>
-                    </tr>
-                    <tr>
-                      <td>1,002</td>
-                      <td>amet</td>
-                      <td>consectetur</td>
-                      <td>adipiscing</td>
-                      <td>elit</td>
-                    </tr>
-                    <tr>
-                      <td>1,003</td>
-                      <td>Integer</td>
-                      <td>nec</td>
-                      <td>odio</td>
-                      <td>Praesent</td>
-                    </tr>
-                    <tr>
-                      <td>1,003</td>
-                      <td>libero</td>
-                      <td>Sed</td>
-                      <td>cursus</td>
-                      <td>ante</td>
-                    </tr>
-                    <tr>
-                      <td>1,004</td>
-                      <td>dapibus</td>
-                      <td>diam</td>
-                      <td>Sed</td>
-                      <td>nisi</td>
-                    </tr>
-                    <tr>
-                      <td>1,005</td>
-                      <td>Nulla</td>
-                      <td>quis</td>
-                      <td>sem</td>
-                      <td>at</td>
-                    </tr>
-                    <tr>
-                      <td>1,006</td>
-                      <td>nibh</td>
-                      <td>elementum</td>
-                      <td>imperdiet</td>
-                      <td>Duis</td>
-                    </tr>
-                    <tr>
-                      <td>1,007</td>
-                      <td>sagittis</td>
-                      <td>ipsum</td>
-                      <td>Praesent</td>
-                      <td>mauris</td>
-                    </tr>
-                    <tr>
-                      <td>1,008</td>
-                      <td>Fusce</td>
-                      <td>nec</td>
-                      <td>tellus</td>
-                      <td>sed</td>
-                    </tr>
-                    <tr>
-                      <td>1,009</td>
-                      <td>augue</td>
-                      <td>semper</td>
-                      <td>porta</td>
-                      <td>Mauris</td>
-                    </tr>
-                    <tr>
-                      <td>1,010</td>
-                      <td>massa</td>
-                      <td>Vestibulum</td>
-                      <td>lacinia</td>
-                      <td>arcu</td>
-                    </tr>
-                    <tr>
-                      <td>1,011</td>
-                      <td>eget</td>
-                      <td>nulla</td>
-                      <td>Class</td>
-                      <td>aptent</td>
-                    </tr>
-                    <tr>
-                      <td>1,012</td>
-                      <td>taciti</td>
-                      <td>sociosqu</td>
-                      <td>ad</td>
-                      <td>litora</td>
-                    </tr>
-                    <tr>
-                      <td>1,013</td>
-                      <td>torquent</td>
-                      <td>per</td>
-                      <td>conubia</td>
-                      <td>nostra</td>
-                    </tr>
-                    <tr>
-                      <td>1,014</td>
-                      <td>per</td>
-                      <td>inceptos</td>
-                      <td>himenaeos</td>
-                      <td>Curabitur</td>
-                    </tr>
-                    <tr>
-                      <td>1,015</td>
-                      <td>sodales</td>
-                      <td>ligula</td>
-                      <td>in</td>
-                      <td>libero</td>
-                    </tr>
-                  </tbody>
-                </table>
+              <div class="col-1 mr1">
+                <label for="text">Label</label>
+                <input type="text" id="" name="text" placeholder="Text">
+              </div>
+              <div class="col mr2">
+                <label for="Dropdown">Dropdown</label>
+                <select id="Dropdown" name="Dropdown">
+                  <option value="option1">Option1</option>
+                  <option value="option2">Option2</option>
+                  <option value="option3">Option3</option>
+                  <option value="option4">Option4</option>
+                </select>
+              </div>
+              <div class="col-1 checkboxes">
+                 <label><input type="checkbox"> <span>checkbox</span></label>
               </div>
             </div>
+          </form>
+        </div>
+        <div class="row">
+          <div class="actionNav">
+            <a class="nav-link" href="#">
+              <img src="icons/New.svg" alt="Search" width="13" height="13" class="svg-blue"/>
+              Add New
+            </a>
+            <a class="nav-link" href="#">
+              <img src="icons/Send.svg" alt="Search" width="13" height="13" class="svg-blue"/>
+              Send
+            </a>
+            <a class="nav-link" href="#">
+              <img src="icons/Print.svg" alt="Search" width="13" height="13" class="svg-blue"/>
+              Print
+            </a>
           </div>
-        </main>
+          <div class="container">
+            <div class="table">
+              <table class="table-hover">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1,001</td>
+                    <td>Lorem</td>
+                    <td>ipsum</td>
+                    <td>dolor</td>
+                    <td>sit</td>
+                  </tr>
+                  <tr>
+                    <td>1,002</td>
+                    <td>amet</td>
+                    <td>consectetur</td>
+                    <td>adipiscing</td>
+                    <td>elit</td>
+                  </tr>
+                  <tr>
+                    <td>1,003</td>
+                    <td>Integer</td>
+                    <td>nec</td>
+                    <td>odio</td>
+                    <td>Praesent</td>
+                  </tr>
+                  <tr>
+                    <td>1,003</td>
+                    <td>libero</td>
+                    <td>Sed</td>
+                    <td>cursus</td>
+                    <td>ante</td>
+                  </tr>
+                  <tr>
+                    <td>1,004</td>
+                    <td>dapibus</td>
+                    <td>diam</td>
+                    <td>Sed</td>
+                    <td>nisi</td>
+                  </tr>
+                  <tr>
+                    <td>1,005</td>
+                    <td>Nulla</td>
+                    <td>quis</td>
+                    <td>sem</td>
+                    <td>at</td>
+                  </tr>
+                  <tr>
+                    <td>1,006</td>
+                    <td>nibh</td>
+                    <td>elementum</td>
+                    <td>imperdiet</td>
+                    <td>Duis</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="actionNav">
+            <a class="nav-link" href="#">
+              <img src="icons/New.svg" alt="Search" width="13" height="13" class="svg-blue"/>
+              Add New
+            </a>
+            <a class="nav-link" href="#">
+              <img src="icons/Send.svg" alt="Search" width="13" height="13" class="svg-blue"/>
+              Send
+            </a>
+            <a class="nav-link" href="#">
+              <img src="icons/Print.svg" alt="Search" width="13" height="13" class="svg-blue"/>
+              Print
+            </a>
+          </div>
+          <form>
+            <div class="container">
+              <div class="col-1 formDivider">
+                <label for="text">Label</label>
+                <input type="text" id="" name="text" placeholder="Text">
+                <label for="text">Label</label>
+                <input type="text" id="" name="text" placeholder="Text">
+                <label for="text">Label</label>
+                <input type="text" id="" name="text" placeholder="Text">
+              </div>
+              <div class="col-1 formDivider">
+                <label for="text">Label</label>
+                <input type="text" id="" name="text" placeholder="Text">
+                <label for="text">Label</label>
+                <input type="text" id="" name="text" placeholder="Text">
+              </div>
+              <div class="col-1 formDivider checkboxes">
+                <label><input type="checkbox"> <span>checkbox</span></label><br>
+                <label><input type="checkbox"> <span>checkbox</span></label><br>
+              </div>
+              <div class="col-1 formDivider radios">
+                <label><input type="radio" name="Radio" value="value1"> <span>value1</span></label><br>
+                <label><input type="radio" name="Radio" value="value2"> <span>value2</span></label><br>
+                <label><input type="radio" name="Radio" value="value3"> <span>value3</span></label><br>
+              </div>
+              <div class="col-1">
+                <input type="button" value="button" onclick="msg()"><br>
+                <input type="button" value="button" onclick="msg()" class="buttonWhite"><br>
+                <input type="submit">
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="container">
+          <div class="col-3 mr2">
+            <div class="subBarTitle">
+              Col-30%
+            </div>
+            <div class="rowWhite">
+            </div>
+          </div>
+          <div class="col-7">
+            <div class="subBarTitle">
+              Col-70%
+            </div>
+            <div class="rowWhite">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="col-5 mr2">
+            <div class="subBarTitle">
+              Col-50%
+            </div>
+            <div class="rowWhite">
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="subBarTitle">
+              Col-50%
+            </div>
+            <div class="rowWhite">
+            </div>
+          </div>
+
+        </div>
+        <div class="container">
+          <div class="subBarTitle">
+            Subtitle
+          </div>
+          <div class="rowWhite"></div>
+        </div>
+        <div class="container">
+          <div class="subBarTitle">
+            Subtitle
+          </div>
+          <div class="table">
+            <table class="table-hover">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Header</th>
+                  <th>Header</th>
+                  <th>Header</th>
+                  <th>Header</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1,001</td>
+                  <td>Lorem</td>
+                  <td>ipsum</td>
+                  <td>dolor</td>
+                  <td>sit</td>
+                </tr>
+                <tr>
+                  <td>1,002</td>
+                  <td>amet</td>
+                  <td>consectetur</td>
+                  <td>adipiscing</td>
+                  <td>elit</td>
+                </tr>
+                <tr>
+                  <td>1,003</td>
+                  <td>Integer</td>
+                  <td>nec</td>
+                  <td>odio</td>
+                  <td>Praesent</td>
+                </tr>
+                <tr>
+                  <td>1,003</td>
+                  <td>libero</td>
+                  <td>Sed</td>
+                  <td>cursus</td>
+                  <td>ante</td>
+                </tr>
+                <tr>
+                  <td>1,004</td>
+                  <td>dapibus</td>
+                  <td>diam</td>
+                  <td>Sed</td>
+                  <td>nisi</td>
+                </tr>
+                <tr>
+                  <td>1,005</td>
+                  <td>Nulla</td>
+                  <td>quis</td>
+                  <td>sem</td>
+                  <td>at</td>
+                </tr>
+                <tr>
+                  <td>1,006</td>
+                  <td>nibh</td>
+                  <td>elementum</td>
+                  <td>imperdiet</td>
+                  <td>Duis</td>
+                </tr>
+                <tr>
+                  <td>1,007</td>
+                  <td>sagittis</td>
+                  <td>ipsum</td>
+                  <td>Praesent</td>
+                  <td>mauris</td>
+                </tr>
+                <tr>
+                  <td>1,008</td>
+                  <td>Fusce</td>
+                  <td>nec</td>
+                  <td>tellus</td>
+                  <td>sed</td>
+                </tr>
+                <tr>
+                  <td>1,009</td>
+                  <td>augue</td>
+                  <td>semper</td>
+                  <td>porta</td>
+                  <td>Mauris</td>
+                </tr>
+                <tr>
+                  <td>1,010</td>
+                  <td>massa</td>
+                  <td>Vestibulum</td>
+                  <td>lacinia</td>
+                  <td>arcu</td>
+                </tr>
+                <tr>
+                  <td>1,011</td>
+                  <td>eget</td>
+                  <td>nulla</td>
+                  <td>Class</td>
+                  <td>aptent</td>
+                </tr>
+                <tr>
+                  <td>1,012</td>
+                  <td>taciti</td>
+                  <td>sociosqu</td>
+                  <td>ad</td>
+                  <td>litora</td>
+                </tr>
+                <tr>
+                  <td>1,013</td>
+                  <td>torquent</td>
+                  <td>per</td>
+                  <td>conubia</td>
+                  <td>nostra</td>
+                </tr>
+                <tr>
+                  <td>1,014</td>
+                  <td>per</td>
+                  <td>inceptos</td>
+                  <td>himenaeos</td>
+                  <td>Curabitur</td>
+                </tr>
+                <tr>
+                  <td>1,015</td>
+                  <td>sodales</td>
+                  <td>ligula</td>
+                  <td>in</td>
+                  <td>libero</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
-    </div>
-    <footer></footer>
+    </main>
+    <footer>
+      Copyright © 2021 All rights reserved MDLand International Corp.
+    </footer>
+    <script>
+      function msg() {
+        alert("Clicked");
+      };
+    </script>
   </body>
 </html>
