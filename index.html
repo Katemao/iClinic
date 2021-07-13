@@ -231,15 +231,15 @@
           <form>
             <div class="container">
               <div class="col-1 mr1">
-                <label for="text">Label</label>
+                <label for="text" class="fontBold">Label</label>
                 <input type="text" id="" name="text" placeholder="Text">
               </div>
               <div class="col-1 mr1">
-                <label for="text">Label</label>
+                <label for="text" class="fontBold">Label</label>
                 <input type="text" id="" name="text" placeholder="Text">
               </div>
               <div class="col mr2">
-                <label for="Dropdown">Dropdown</label>
+                <label for="Dropdown" class="fontBold">Dropdown</label>
                 <select id="Dropdown" name="Dropdown">
                   <option value="option1">Option1</option>
                   <option value="option2">Option2</option>
@@ -375,10 +375,14 @@
                 <label><input type="radio" name="Radio" value="value2"> <span>value2</span></label><br>
                 <label><input type="radio" name="Radio" value="value3"> <span>value3</span></label><br>
               </div>
-              <div class="col-1">
+              <div class="col-1 formDivider">
                 <input type="button" value="button" onclick="msg()"><br>
                 <input type="button" value="button" onclick="msg()" class="buttonWhite"><br>
                 <input type="submit">
+              </div>
+              <div class="col-1">
+                <a href="#" class="tags">Tags</a>
+                <a href="#" class="tags" style="background-color:var(--grey3)">Tags</a>
               </div>
             </div>
           </form>
@@ -554,6 +558,20 @@
             </table>
           </div>
         </div>
+        <div class="tabNav">
+          <div class="container">
+              <a href="#content1" class="active">Tab 1</a>
+              <a href="#content2">Tab 2</a>
+              <a href="#content3">Tab 3</a>
+              <a href="#content4">Tab 4</a>
+          </div>
+          <div class="rowWhite tabContents">
+              <div id="content1">Suspendisse potenti. Mauris in lacinia.</div>
+              <div id="content2">Pellentesque pulvinar venenatis ante in.</div>
+              <div id="content3">Vestibulum a nisi viverra, hendrerit.</div>
+              <div id="content4">Nullam leo ipsum, euismod sed.</div>
+          </div>
+        </div>
       </div>
     </main>
     <footer>
@@ -563,6 +581,7 @@
       function msg() {
         alert("Clicked");
       };
+
     </script>
   </body>
 </html>
